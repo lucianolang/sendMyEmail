@@ -14,6 +14,7 @@
 		E62481972015FAA300A0E6BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62481952015FAA300A0E6BB /* LaunchScreen.storyboard */; };
 		E62481A22015FAA300A0E6BB /* sendMyEmailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62481A12015FAA300A0E6BB /* sendMyEmailTests.swift */; };
 		E62481AD2015FAA300A0E6BB /* sendMyEmailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62481AC2015FAA300A0E6BB /* sendMyEmailUITests.swift */; };
+		E62481BB2015FBE500A0E6BB /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62481BA2015FBE500A0E6BB /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E62481A82015FAA300A0E6BB /* sendMyEmailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sendMyEmailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62481AC2015FAA300A0E6BB /* sendMyEmailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendMyEmailUITests.swift; sourceTree = "<group>"; };
 		E62481AE2015FAA300A0E6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E62481BA2015FBE500A0E6BB /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E624818C2015FAA300A0E6BB /* AppDelegate.swift */,
 				E624818E2015FAA300A0E6BB /* ViewController.swift */,
+				E62481BA2015FBE500A0E6BB /* APIManager.swift */,
 				E62481902015FAA300A0E6BB /* Main.storyboard */,
 				E62481932015FAA300A0E6BB /* Assets.xcassets */,
 				E62481952015FAA300A0E6BB /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62481BB2015FBE500A0E6BB /* APIManager.swift in Sources */,
 				E624818F2015FAA300A0E6BB /* ViewController.swift in Sources */,
 				E624818D2015FAA300A0E6BB /* AppDelegate.swift in Sources */,
 			);
